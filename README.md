@@ -1,4 +1,4 @@
-# auto_core
+##  Auto Core
 
 An `Auto` core support library.
 
