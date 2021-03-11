@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message SnapshotMatchPositions {
+    repeated MatchPositions all = 1;
+}
+
+message MatchPositions {
+    string name = 1;
+    repeated MatchPosition all = 2;
+}
+
+message MatchPosition {
+    double leftRatio  = 1;
+    double topRatio  = 2;
+    double rightRatio  = 3;
+    double bottomRatio  = 4;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "app_info.proto";
+
+message PlaybackReportInfo {
+    bool ok = 1;
+    string errorReason = 2;
+    AppInfo appInfoOfRecorder = 3;
+    AppInfo appInfoOfPlayer = 4;
+}
